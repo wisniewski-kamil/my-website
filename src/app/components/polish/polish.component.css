@@ -2,9 +2,8 @@
   width: 80%;
   height: 80vh;
   border-radius: 20px;
-  background: linear-gradient(243deg, rgba(92,90,215,1) 0%, rgba(246,126,190,1) 50%, rgba(231,143,255,1) 100%);
+  background: linear-gradient(243deg, rgb(80, 78, 255) 0%, rgb(246, 126, 234) 80%, rgb(117, 119, 250) 100%);
   box-shadow: 0 8px 32px 10px rgba( 31, 38, 135, 0.7 );
-
 }
 
 .carousel{
@@ -15,4 +14,30 @@
 .carousel-item{
   padding-top: 5vh;
   padding-bottom: 5vh;
+}
+
+.carousel-indicators{
+  bottom: -5vh;
+}
+
+.carousel-indicators button{
+  text-indent: 0;
+  height: 3em;
+  min-width: 6vw;
+  width: auto;
+  margin: auto 1vw;
+}
+
+h1 {
+  font-size: 15vh;
+  margin-bottom: -5vh;
+}
+
+h6 {
+  color: rgba(231, 231, 231, 0.75);
+  width: 70vw;
+}
+
+.welcome{
+  text-align: center;
 }
