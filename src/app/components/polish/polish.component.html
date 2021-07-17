@@ -1,35 +1,133 @@
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="false">
-  <div class="carousel-indicators font-monospace">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-            class="active" aria-current="true" aria-label="Slide 1">Witaj</button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">O mnie</button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">Umiejętności<br>miękkie</button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4">Umiejętności<br>techniczne</button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5">Edukacja</button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6">Projekty</button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7">Kontakt</button>
+<div id="mainCarousel" class="carousel slide" data-bs-interval="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0"
+            class="active" aria-current="true" aria-label="Slide 1">Witaj
+    </button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2">
+      O mnie
+    </button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3">
+      Umiejętności<br>miękkie
+    </button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="3" aria-label="Slide 4">
+      Umiejętności<br>techniczne
+    </button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="4" aria-label="Slide 5">
+      Edukacja
+    </button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="5" aria-label="Slide 6">
+      Projekty
+    </button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="6" aria-label="Slide 7">
+      Kontakt
+    </button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="section mx-auto position-relative">
-        <div class="position-absolute top-50 start-50 translate-middle fs-1 font-monospace welcome">
+        <div class="position-absolute top-50 start-50 translate-middle fs-1 welcome">
           <h1>CZEŚĆ</h1><br>
           <h2>Witaj na osobistej stronie<br>
             Kamila Wiśniewskiego</h2>
         </div>
-        <div class="position-absolute bottom-0 start-50 translate-middle-x font-monospace welcome">
+        <div class="position-absolute bottom-0 start-50 translate-middle-x welcome">
           <h6>Aby poruszać się po segmentach użyj strzałek z lewej i prawej strony ekranu lub przycisków na dole</h6>
         </div>
       </div>
     </div>
     <div class="carousel-item">
-      <div class="section mx-auto">
-        2
+      <div class="section mx-auto position-relative">
+        <div id="about" class="position-absolute top-50 start-50 translate-middle">
+          <div>
+            <img src="/assets/foto_cv.jpg" alt="Foto" id="face-photo">
+            <div class="title">O MNIE</div>
+            <p class="about-text">
+              Nazywam się Kamil Wiśniewski, chciałbym zostać Java Developerem. Programowania zacząłem się uczyć
+              we własnym zakresie już 5
+              lat temu, następnie pogłębiałem swoją wiedzę na studiach czy kursie Javy. W wolnym czasie rozwijam swoje
+              zainteresowanie informatyką zgłębiając takie pojęcia
+              jak np. automaty komórkowe. Zdobyte umiejętności ćwiczę implementując projekty, nad którymi pracowałem
+              grupowo jak i samemu. Cechuje mnie analityczne myślenie, duża
+              dbałość o szczegóły, oraz umiejętność pracy w grupie. Do życia staram się podchodzić racjonalnie i z
+              dozą sceptycyzmu.
+            </p>
+          </div>
+          <hr>
+          <div>
+            <div class="title">ZAINTERESOWANIA</div>
+            <table>
+              <tr>
+                <td>
+                  <div class="hobby">
+                    <img src="/assets/hobby_game_white.png" alt="Game">
+                    <h4>Niezależne gry komputerowe</h4>
+                  </div>
+                </td>
+                <td>
+                  <div class="hobby">
+                    <img src="/assets/hobby_religion_white.png" alt="Religion">
+                    <h4>Religie i wierzenia</h4>
+                  </div>
+                </td>
+                <td>
+                  <div class="hobby">
+                    <img src="/assets/hobby_books_white.png" alt="Book">
+                    <h4>Czytanie książek</h4>
+                  </div>
+                </td>
+                <td>
+                  <div class="hobby">
+                    <img src="/assets/hobby_movie_white.png" alt="Movie">
+                    <h4>Oglądanie filmów i seriali</h4>
+                  </div>
+                </td>
+                <td>
+                  <div class="hobby">
+                    <img src="/assets/hobby_mobile_white.png" alt="Mobile">
+                    <h4>Nowe technologie mobilne</h4>
+                  </div>
+                </td>
+                <td>
+                  <div class="hobby">
+                    <img src="/assets/hobby_bike_white.png" alt="Bike">
+                    <h4>Spacery i jazda na rowerze</h4>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
     <div class="carousel-item">
-      <div class="section mx-auto">
-        3
+      <div class="section mx-auto position-relative">
+        <div id="softskills" class="position-absolute top-50 start-50 translate-middle">
+          <div class="title">UMIEJĘTNOŚCI MIĘKKIE</div>
+          <div class="soft-skill left">
+            <img src="/assets/soft_communication_white.png" alt="Communication" class="soft-skill-img left">
+            <h2 class="left">Komunikatywność</h2>
+          </div>
+          <div class="soft-skill right">
+            <img src="/assets/soft_group_white.png" alt="Group" class="soft-skill-img left">
+            <h2 class="left">Umiejętność pracy w grupie</h2>
+          </div>
+          <div class="soft-skill left">
+            <img src="/assets/soft_logic_white.png" alt="Logic" class="soft-skill-img left">
+            <h2 class="left">Logiczne i analityczne myślenie</h2>
+          </div>
+          <div class="soft-skill right">
+            <img src="/assets/soft_details_white.png" alt="Details" class="soft-skill-img left">
+            <h2 class="left">Przykładanie uwagi do szczegółów</h2>
+          </div>
+          <div class="soft-skill left">
+            <img src="/assets/soft_verify_white.png" alt="Verification" class="soft-skill-img left">
+            <h2 class="left">Umiejętność weryfikacji informacji</h2>
+          </div>
+          <div class="soft-skill right">
+            <img src="/assets/soft_scept_white.png" alt="Scepticism" class="soft-skill-img left">
+            <h2 class="left">Realistyczne i sceptyczne podejście do życia</h2>
+          </div>
+        </div>
       </div>
     </div>
     <div class="carousel-item">
@@ -43,23 +141,116 @@
       </div>
     </div>
     <div class="carousel-item">
-      <div class="section mx-auto">
-        6
+      <div id="projects" class="section mx-auto">
+        <h2 class="title">MOJE PROJEKTY</h2>
+        <div class="accordion accordion-flush" id="projectAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+                <h4>Game Pals</h4>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne"
+                 data-bs-parent="#projectAccordion">
+              <div class="accordion-body">
+                <img src="/assets/project_gamepals.png" alt="GamePals" class="left">
+                <p>
+                  Game Pals to strona do szukania osób do gier online. Zastała napisana jako projekt końcowy kursu "Java od podstaw"
+                  w Software Development Academy. Projekt pisaliśmy w grupie, której zostałem team leaderem. Do napisania
+                  frontu użyliśmy Angulara, natomiast backend został napisany z użyciem Springa.
+                  <br>
+                  <a href="https://gamepals.netlify.app/home">DEMO</a>
+                  <br>
+                  <a href="https://github.com/game-pals-org/game-pals-api">REPOZYTORIUM</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <h4>Simple Chat</h4>
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                 data-bs-parent="#projectAccordion">
+              <div class="accordion-body">
+                <img src="/assets/project_simplechat.png" alt="SimpleChat" class="left">
+                <p>
+                  Simple Chat to bardzo prosty server oraz klient (graficzny oraz konsolowy) służące jako chat online.
+                  Nie jest bardzo rozbudowany i był testowany tylko lokalnie ponieważ był to pierwszy samodzielny projekt na kursie "Java od podstaw"
+                  w Software Development Academy. Napisany został w Javie z użyciem JavaFX i Hibernate.
+                  <br>
+                  <a href="https://github.com/wisniewski-kamil/simple-chat">REPOZYTORIUM</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <h4>Moja osobista strona</h4>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                 data-bs-parent="#projectAccordion">
+              <div class="accordion-body">
+                <p>
+                  To strona na której aktualnie się znajdujesz. Tworzyłem ją aby przedstawić moją osobę ciekawiej niż
+                  tylko w formie CV oraz pokazać, że poza Javą i technologiami backendowymi jestem także zaznajomiony z
+                  technologiami frontendowymi takimi jak Angular.
+                  <br>
+                  <a href="https://github.com/wisniewski-kamil/my-website">REPOZYTORIUM</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="carousel-item">
-      <div class="section mx-auto">
-        7
+      <div class="section mx-auto position-relative">
+        <div id="contact" class="position-absolute top-50 start-50 translate-middle">
+          <div class="title">ODEZWIJ SIĘ DO MNIE PRZEZ:</div>
+          <div class="link">
+            <a href="https://www.linkedin.com/in/wisniewski-kamil/">
+              <img src="/assets/logo_linkedin_white.png" alt="LinkedIn" class="left">
+              <h2 class="left">linkedin.com/in/wisniewski-kamil</h2>
+            </a>
+          </div>
+          <div class="link">
+            <img src="/assets/logo_email_white.png" alt="Email" class="left">
+            <h2 class="left">kamil.m.wis@gmail.com</h2>
+          </div>
+          <div class="title">LUB SPRAWDŹ MÓJ KOD:</div>
+          <div class="link">
+            <a href="https://github.com/wisniewski-kamil">
+              <img src="/assets/logo_github_white.png" alt="GitHub" class="left">
+              <h2 class="left">github.com/wisniewski-kamil</h2>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+</div>
+<div id="contact-buttons">
+  <a href="https://github.com/wisniewski-kamil" class="left">
+    <img src="/assets/logo_github_white.png" alt="GitHub">
+  </a>
+  <a href="https://www.linkedin.com/in/wisniewski-kamil/" class="left">
+    <img src="/assets/logo_linkedin_white.png" alt="LinkedIn">
+  </a>
 </div>
 
