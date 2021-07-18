@@ -135,6 +135,10 @@ td {
   margin: 1vw 0.5vw;
 }
 
+.skill h5{
+  font-size: 1.1vw;
+}
+
 .skill img{
   width: 4vw;
   height: 4vw;
