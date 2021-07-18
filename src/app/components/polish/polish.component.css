@@ -122,6 +122,33 @@ td {
   width: 17vw;
 }
 
+/*Technical skills*/
+#skills{
+  width: 50vw;
+}
+
+.skill{
+  box-shadow: 0 8px 16px 3px rgba(23, 23, 23, 0.6);
+  background-color: rgba(56, 56, 56, 0.8);
+  padding: 1vw;
+  text-align: center;
+  margin: 1vw 0.5vw;
+}
+
+.skill img{
+  width: 4vw;
+  height: 4vw;
+  margin-bottom: 0.5vw;
+}
+
+.shorter{
+  padding-bottom: 0;
+}
+
+.wide{
+  width: 25vw;
+}
+
 /*Education*/
 ul.timeline {
   list-style-type: none;
