@@ -1,7 +1,7 @@
 # My website
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png" alt="Angular logo"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/240px-Angular_full_color_logo.svg.png" alt="Angular logo"/>
 </p>
 
 This project is my CV made in a form of website. It was made primarily to have more interesting version of CV than just pdf and secondarily to display my knowledge of frontend technologies.
