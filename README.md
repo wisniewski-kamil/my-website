@@ -1,27 +1,28 @@
-# MyWebsite
+# My website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png" alt="Angular logo"/>
+</p>
 
-## Development server
+This project is my CV made in a form of website. It was made primarily to have more interesting version of CV than just pdf and secondarily to display my knowledge of frontend technologies.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Technologies used
 
-## Code scaffolding
+- Angular
+- HTML
+- CSS
+- Bootstrap 5
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Demo
 
-## Build
+I used [Netlify](https://www.netlify.com/) to deploy my website and you can check  it out [here](https://wisniewski-kamil.netlify.app)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Description
 
-## Running unit tests
+My main goal while doing this project was to made fully functional website that would be good looking representation of my CV. I tried to make it SPA so the website has two components - polish and english. I also wanted to learn something about Bootstrap so I used some of it's components like carousel.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Website itself contains of a few segments. You can move between them using arrow keys on keyboard, arrow buttons on the left and rigth sides of screen or buttons at the bottom. To change language use buttons in the top left corner. At the bottom right corner are icons redirecting to my github and linkedin.
 
-## Running end-to-end tests
+## Author
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Kamil Wiśniewski - [github](https://github.com/wisniewski-kamil) - [linkedin](https://www.linkedin.com/in/wisniewski-kamil/)
